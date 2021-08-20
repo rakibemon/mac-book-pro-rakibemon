@@ -25,7 +25,9 @@
                 </div>
                 <div class="col-md-6">
                     <div class="product__details">
-                        <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                        <header>
+                            <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                        </header>
                         <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU,
                             and 16-core Neural Engine 8GB unified memory 256GB SSD storag Two Thunderbolt/ USB 4 ports
                             Magic Mouse Magic Keyboard - US English</p>
@@ -73,13 +75,14 @@
                                 </tfoot>
                             </table>
                         </section>
-                        <section>
+                        <section id="promo-section">
                             <p class="fw-bold mt-5">Add Promo code</p>
                             <div class="input-group w-50 mb-3">
-                                <input type="text" class="form-control rounded" aria-label="Sizing example input"
+                                <input id="promo-input" type="text" class="form-control rounded" aria-label="Sizing example input" placeholder="Enter promo code here"
                                     aria-describedby="inputGroup-sizing-default">
-                                <button class="btn btn-danger rounded">Apply</button>
+                                <button id="apply-button" class="btn btn-success rounded">Apply</button>
                             </div>
+                            <p id="errormessage" class="text-danger">The promo code does not exist</p>
                         </section>
                     </div>
                 </div>
