@@ -1,4 +1,7 @@
+
+/* Import font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+/* Common Design */
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -7,6 +10,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/* Button design */
 .btn-outline-ash{
     outline: 1px solid #6C757D;
 }
@@ -14,12 +18,13 @@ body{
     background-color: #4b0d92da;
     color: #fff;
 }
+/* Promo section design */
+#errormessage{
+    display: none;
+}
 hr{
     width: 70%;
     margin: auto;
-}
-#errormessage{
-    display: none;
 }
 #after-promo-text{
     font-size: 55%;
