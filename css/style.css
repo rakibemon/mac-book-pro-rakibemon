@@ -7,10 +7,24 @@ body{
     margin: 0;
     padding: 0;
 }
+.btn-outline-ash{
+    outline: 1px solid #6C757D;
+}
+.btn-ash, .btn-outline-ash:hover{
+    background-color: #4b0d92da;
+    color: #fff;
+}
 hr{
     width: 70%;
     margin: auto;
 }
 #errormessage{
+    display: none;
+}
+#after-promo-text{
+    font-size: 55%;
+    font-weight: 400;
+    position: relative;
+    top: -3px;
     display: none;
 }
